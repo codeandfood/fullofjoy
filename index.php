@@ -1,18 +1,21 @@
 ﻿<!DOCTYPE html>
+<!-- 127439674@166.62.10.228 -->
+
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Mazel - Multiprapose Html template</title>
+    <title>Soulfuladventures</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="author" content="nileforest">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-
+    
+    <?php include("favi.php"); ?>
     <!-- Favicone Icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-    <link rel="icon" type="image/png" href="img/favicon.png">
-    <link rel="apple-touch-icon" href="img/favicon.png">
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="img/soulfuladventures_logo.png">
+    <link rel="icon" type="image/png" href="img/soulfuladventures_logo.png">
+    <link rel="apple-touch-icon" href="img/soulfuladventures_logo.png"> -->
 
     <!-- CSS -->
     <link href="css/style.css" rel="stylesheet" type="text/css" />
@@ -66,11 +69,11 @@
 
                     <!--Slide-->
                     <li data-slide="light-slide">
-                        <div class="slide-bg-image overlay-light parallax parallax-section1" data-background-img="img/full/11.jpg">
+                        <div class="slide-bg-image overlay-light parallax parallax-section1" data-background-img="img/full/01.jpg">
                             <div class="js-Slide-fullscreen-height container">
                                 <div class="intro-content">
                                     <div class="intro-content-inner">
-                                        <h2 class="h2">Welcome to Mazel</h2>
+                                        <h2 class="h2">Welcome to Soulful</h2>
                                         <p class="lead">We carry a passion for performance marketing</p>
                                     </div>
                                 </div>
@@ -80,7 +83,7 @@
 
                     <!--Slide-->
                     <li data-slide="dark-slide">
-                        <div class="slide-bg-image overlay-dark dark-bg parallax parallax-section1" data-background-img="img/full/20.jpg">
+                        <div class="slide-bg-image overlay-dark dark-bg parallax parallax-section1" data-background-img="img/full/02.jpg">
                             <div class="js-Slide-fullscreen-height container">
                                 <div class="intro-content">
                                     <div class="intro-content-inner">
@@ -96,7 +99,7 @@
 
                     <!--Slide-->
                     <li data-slide="light-slide">
-                        <div class="slide-bg-image overlay-light parallax parallax-section1" data-background-img="img/full/02.jpg">
+                        <div class="slide-bg-image overlay-light parallax parallax-section1" data-background-img="img/full/03.jpg">
                             <div class="js-Slide-fullscreen-height container">
                                 <div class="intro-content">
                                     <div class="intro-content-inner">
@@ -112,7 +115,21 @@
 
                     <!--Slide-->
                     <li data-slide="dark-slide">
-                        <div class="slide-bg-image overlay-dark dark-bg parallax parallax-section1" data-background-img="img/full/18.jpg">
+                        <div class="slide-bg-image overlay-dark dark-bg parallax parallax-section1" data-background-img="img/full/04.jpg">
+                            <div class="js-Slide-fullscreen-height container">
+                                <div class="intro-content">
+                                    <div class="intro-content-inner">
+                                        <h2 class="h2">Fully Responsive</h2>
+                                        <p class="lead">We carry a passion for performance marketing</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!--Slide-->
+                    <li data-slide="dark-slide">
+                        <div class="slide-bg-image overlay-dark dark-bg parallax parallax-section1" data-background-img="img/full/05.jpg">
                             <div class="js-Slide-fullscreen-height container">
                                 <div class="intro-content">
                                     <div class="intro-content-inner">
@@ -137,9 +154,16 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2"></div>
                     <h2>
-                        <span class="color">We are Mazel.</span> A Digitel<br />
-                        Agency from the city of Berlin
+                        <span class="color">What</span> We Are
                     </h2>
+
+It may happen while sitting atop a majestic elephant sauntering through the green trails of Thekkady; on a bicycle whooshing through the wooded coffee-scented hills of Chikmagalur,when hovering over a crackling campfire in chilly Wayanad or floating on a sailing boat in serene Pondicherry. That magical moment when your soul makes a profound connection to the world around you, can happen anywhere!
+<br><br>
+At Soulful Adventures, we believe that travelling is more than just the journey! It is finding that elusive connection with the destination you have always dreamed of visiting or returning to -one for which you carefully save up and set aside time.
+<br><br>
+
+By bringing in local expertise that recognizes the need for respecting the Earth, we provide you a truly immersive experience that lets you see, feel and carry home something more than what the casual visitor or the city guidebook rave about!
+<br><br>
                 </div>
             </div>
         </section>
@@ -150,79 +174,25 @@
             <div class="container">
                 <!-- work Filter -->
                 <div class="row">
+                    <!-- <h2 class="text-center">
+                        <span class="color">You’ll love </span> where we take you
+                    </h2> -->
                     <ul class="container-filter categories-filter">
-                        <li><a class="categories active" data-filter="*">All</a></li>
-                        <li><a class="categories" data-filter=".branding">Branding</a></li>
+                        <li><a class="categories active" data-filter="*">
+                            <span class="color">You’ll love </span> where we take you</a></li>
+                        <!-- <li><a class="categories" data-filter=".branding">Branding</a></li>
                         <li><a class="categories" data-filter=".design">Design</a></li>
                         <li><a class="categories" data-filter=".photo">Photo</a></li>
-                        <li><a class="categories" data-filter=".coffee">coffee</a></li>
+                        <li><a class="categories" data-filter=".coffee">coffee</a></li> -->
                     </ul>
                 </div>
                 <!-- End work Filter -->
-                <div class="row container-masonry nf-col-3">
-
-                    <div class="nf-item branding coffee spacing">
-                        <div class="item-box">
-                            <a href="portfolio-single1.html">
-                                <img alt="1" src="img/portfolio/14.jpg" class="item-container">
-                                <div class="item-mask">
-                                    <div class="item-caption">
-                                        <h5 class="white">Consequat massa quis</h5>
-                                        <p class="white">Branding, Design</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
+                <div class="row container-masonry nf-col-2">
+                    
                     <div class="nf-item photo spacing">
                         <div class="item-box">
-                            <a href="portfolio-single2.html">
-                                <img alt="1" src="img/portfolio/2.jpg" class="item-container">
-                                <div class="item-mask">
-                                    <div class="item-caption">
-                                        <h5 class="white">Bookmarksgrove right at</h5>
-                                        <p class="white">Branding, Design, Coffee</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="nf-item branding photo spacing">
-                        <div class="item-box">
-                            <a href="portfolio-single3.html">
-                                <img alt="1" src="img/portfolio/17.jpg" class="item-container">
-                                <div class="item-mask">
-                                    <div class="item-caption">
-                                        <h5 class="white">A small river named</h5>
-                                        <p class="white">Branding, Design</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-
-
-                    <div class="nf-item design spacing">
-                        <div class="item-box">
-                            <a href="portfolio-single4.html">
-                                <img alt="1" src="img/portfolio/34.jpg" class="item-container">
-                                <div class="item-mask">
-                                    <div class="item-caption">
-                                        <h5 class="white">Rethoric question ran over</h5>
-                                        <p class="white">Branding, Design, Coffee</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="nf-item photo spacing">
-                        <div class="item-box">
-                            <a href="portfolio-single1.html">
-                                <img alt="1" src="img/portfolio/32.jpg" class="item-container">
+                            <a href="destination.php">
+                                <img alt="1" src="img/destinations/Pondicherry.jpg" class="item-container">
                                 <div class="item-mask">
                                     <div class="item-caption">
                                         <h5 class="white">Because there were thousands</h5>
@@ -233,10 +203,11 @@
                         </div>
                     </div>
 
+
                     <div class="nf-item photo spacing">
                         <div class="item-box">
                             <a href="portfolio-single5-slider.html">
-                                <img alt="1" src="img/portfolio/21.jpg" class="item-container">
+                                <img alt="1" src="img/destinations/Thattekkad.jpg" class="item-container">
                                 <div class="item-mask">
                                     <div class="item-caption">
                                         <h5 class="white">Ran over her cheek</h5>
@@ -247,55 +218,41 @@
                         </div>
                     </div>
 
-                    <div class="nf-item design spacing">
+                    <div class="nf-item branding photo coffee spacing">
                         <div class="item-box">
-                            <a href="portfolio-single6-video.html">
-                                <img alt="1" src="img/portfolio/22.jpg" class="item-container">
+                            <a href="destination.php">
+                                <img alt="1" src="img/destinations/Wayanad.jpg" class="item-container">
                                 <div class="item-mask">
                                     <div class="item-caption">
-                                        <h5 class="white">Oxmox advised her</h5>
-                                        <p class="white">Branding, Video</p>
+                                        <h5 class="white">Consequat massa quis</h5>
+                                        <p class="white">Branding, Design</p>
                                     </div>
                                 </div>
                             </a>
                         </div>
                     </div>
-
-                    <div class="nf-item coffee spacing">
+                    
+                    <div class="nf-item branding photo spacing">
                         <div class="item-box">
-                            <a href="portfolio-single7-youtube.html">
-                                <img alt="1" src="img/portfolio/29.jpg" class="item-container">
+                            <a href="portfolio-single3.html">
+                                <img alt="1" src="img/destinations/Pollachi.jpg" class="item-container">
                                 <div class="item-mask">
                                     <div class="item-caption">
-                                        <h5 class="white">Subline of her own road</h5>
-                                        <p class="white">Branding, Youtube</p>
+                                        <h5 class="white">A small river named</h5>
+                                        <p class="white">Branding, Design</p>
                                     </div>
                                 </div>
                             </a>
                         </div>
                     </div>
-
-                    <div class="nf-item design spacing">
+                    
+                    <div class="nf-item photo spacing">
                         <div class="item-box">
-                            <a href="portfolio-single8-vimeo.html">
-                                <img alt="1" src="img/portfolio/23.jpg" class="item-container">
+                            <a href="portfolio-single4.html">
+                                <img alt="1" src="img/destinations/Alleppey.jpg" class="item-container">
                                 <div class="item-mask">
                                     <div class="item-caption">
-                                        <h5 class="white">But the Little Blind</h5>
-                                        <p class="white">Branding, Vimeo</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="nf-item design spacing">
-                        <div class="item-box">
-                            <a href="portfolio-single1.html">
-                                <img alt="1" src="img/portfolio/24.jpg" class="item-container">
-                                <div class="item-mask">
-                                    <div class="item-caption">
-                                        <h5 class="white">Even the all-powerful</h5>
+                                        <h5 class="white">control about the blind</h5>
                                         <p class="white">Branding, Design</p>
                                     </div>
                                 </div>
@@ -306,7 +263,7 @@
                     <div class="nf-item photo spacing">
                         <div class="item-box">
                             <a href="portfolio-single2.html">
-                                <img alt="1" src="img/portfolio/25.jpg" class="item-container">
+                                <img alt="1" src="img/destinations/Thekkady.JPG" class="item-container">
                                 <div class="item-mask">
                                     <div class="item-caption">
                                         <h5 class="white">Italic Mountains</h5>
@@ -319,82 +276,12 @@
 
                     <div class="nf-item photo spacing">
                         <div class="item-box">
-                            <a href="portfolio-single4.html">
-                                <img alt="1" src="img/portfolio/33.jpg" class="item-container">
-                                <div class="item-mask">
-                                    <div class="item-caption">
-                                        <h5 class="white">control about the blind</h5>
-                                        <p class="white">Branding, Design</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="nf-item branding coffee spacing">
-                        <div class="item-box">
-                            <a href="portfolio-single5-slider.html">
-                                <img alt="1" src="img/portfolio/27.jpg" class="item-container">
-                                <div class="item-mask">
-                                    <div class="item-caption">
-                                        <h5 class="white">The Big Oxmox advised</h5>
-                                        <p class="white">Branding, Slider</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="nf-item branding coffee spacing">
-                        <div class="item-box">
-                            <a href="portfolio-single1.html">
-                                <img alt="1" src="img/portfolio/18.jpg" class="item-container">
-                                <div class="item-mask">
-                                    <div class="item-caption">
-                                        <h5 class="white">The Big Oxmox advised</h5>
-                                        <p class="white">Branding, Slider</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="nf-item branding design spacing">
-                        <div class="item-box">
                             <a href="portfolio-single2.html">
-                                <img alt="1" src="img/portfolio/4.jpg" class="item-container">
+                                <img alt="1" src="img/destinations/Chikmagalur.jpg" class="item-container">
                                 <div class="item-mask">
                                     <div class="item-caption">
-                                        <h5 class="white">The Big Oxmox advised</h5>
-                                        <p class="white">Branding, Slider</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="nf-item branding coffee spacing">
-                        <div class="item-box">
-                            <a href="portfolio-single3.html">
-                                <img alt="1" src="img/portfolio/30.jpg" class="item-container">
-                                <div class="item-mask">
-                                    <div class="item-caption">
-                                        <h5 class="white">The Big Oxmox advised</h5>
-                                        <p class="white">Branding, Slider</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="nf-item branding design spacing">
-                        <div class="item-box">
-                            <a href="portfolio-single4.html">
-                                <img alt="1" src="img/portfolio/10.jpg" class="item-container">
-                                <div class="item-mask">
-                                    <div class="item-caption">
-                                        <h5 class="white">The Big Oxmox advised</h5>
-                                        <p class="white">Branding, Slider</p>
+                                        <h5 class="white">Bookmarksgrove right at</h5>
+                                        <p class="white">Branding, Design, Coffee</p>
                                     </div>
                                 </div>
                             </a>
@@ -414,8 +301,9 @@
                     <div class="item">
                         <div class="testimonial text-center dark-color">
                             <div class="container-icon"><i class="fa fa-quote-right"></i></div>
-                            <p class="lead">" I got a dummy for Christmas and started teaching myself. I got books and records and sat in front of the practising. I did my first show in the third grade and just kept going. "</p>
-                            <h6 class="quote-author">Jeff Dunham <span style="font-weight: 400;">( Appel Studio )</span></h6>
+                            <p class="lead">"  It was an amazing experience with soulful adventures. !!! They were very flexible in
+                                        customizing our needs. Well organized, good accommodation & nice food. Thank you guys for a wonderful experience in pollachi. "</p>
+                            <h6 class="quote-author"> - Rathimeena Umakanthan <span style="font-weight: 400;"> ( <i class="fa fa-user" aria-hidden="true"> )</i></span></h6>
                         </div>
                     </div>
                     <div class="item">
@@ -437,93 +325,9 @@
         </section>
         <!-- End Testimonials -->
         <div class="spacer-60"></div>
-        <!-- END CONTENT ---------------------------------------------------------------------------->
+        <!-- END CONTENT -->
 
-        <!-- FOOTER -->
-        <footer class="footer pt-80">
-            <div class="container">
-                <div class="row mb-60">
-                    <!-- Logo -->
-                    <div class="col-md-3 col-sm-3 col-xs-12 mb-xs-30">
-                        <a class="footer-logo" href="home.html">
-                            <img src="img/logo-black.png" /></a>
-                    </div>
-                    <!-- Logo -->
-
-                    <!-- Newsletter -->
-                    <div class="col-md-4 col-sm-5 col-xs-12 mb-xs-30">
-                        <div class="newsletter">
-                            <form>
-                                <input type="email" class="newsletter-input input-md newsletter-input mb-0" placeholder="Enter Your Email">
-                                <button class="newsletter-btn btn btn-xs btn-white" type="submit" value=""><i class="fa fa-angle-right mr-0"></i></button>
-                            </form>
-                        </div>
-                    </div>
-                    <!-- End Newsletter -->
-
-                    <!-- Social -->
-                    <div class="col-md-3 col-md-offset-2 col-sm-4 col-xs-12">
-                        <ul class="social">
-                            <li><a target="_blank" href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
-                            <li><a target="_blank" href="https://instagram.com/"><i class="fa fa-instagram"></i></a></li>
-                            <li><a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
-                            <li><a target="_blank" href="https://vimeo.com/"><i class="fa fa-vimeo-square"></i></a></li>
-                            <li><a target="_blank" href="https://www.behance.net/"><i class="fa fa-behance"></i></a></li>
-                        </ul>
-                    </div>
-                    <!-- End Social -->
-                </div>
-                <!--Footer Info -->
-                <div class="row footer-info mb-60">
-                    <div class="col-md-3 col-sm-12 col-xs-12 mb-sm-30">
-                        <p class="mb-xs-0">Our ante tincidunt tempus, Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros.</p>
-                        <a class="btn-link-a" href="about-1.html">Read More</a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 mb-sm-30 mb-xs-0">
-                        <ul class="link">
-                            <li><a href="blog-grid-3col.html">Blog</a></li>
-                            <li><a href="portfolio-grid-3col.html">Portfolio</a></li>
-                            <li><a href="login-register.html">Login & Signup</a></li>
-                            <li><a href="faq-1.html">FAQ</a></li>
-                            <li><a href="about-1.html">About</a></li>
-                            <li><a href="service-1.html">Service</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 mb-sm-30">
-                        <ul class="link">
-                            <li><a href="contact-1.html">Contact Us</a></li>
-                            <li><a href="shop-checkout.html">Shopping Cart</a></li>
-                            <li><a href="404-error-1.html">404 Error</a></li>
-                            <li><a href="home.html">Home</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 col-sm-12 col-xs-12">
-                        <p>502, DieSachbearbeiter, Schönhauser Allee, 167c10435 Berlin,Germany.</p>
-                        <ul class="link-small">
-                            <li><a href="mailto:yourname@domain.com"><i class="fa fa-envelope-o left"></i>yourname@domain.com</a></li>
-                            <li><a><i class="fa fa-phone left"></i>+40 (0) 012 345 6789</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- End Footer Info -->
-            </div>
-
-            <hr />
-
-            <!-- Copyright Bar -->
-            <section class="copyright ptb-60">
-                <div class="container">
-                    <p class="">
-                        © 2015 <a><b>Mazel Template</b></a>. All Rights Reserved.
-                        <br />
-                        Template  by <a target="_blank" href="http://nileforest.com/"><b>nileforest</b></a>
-                    </p>
-                </div>
-            </section>
-            <!-- End Copyright Bar -->
-
-        </footer>
-        <!-- END FOOTER -->
+        <?php include("includes/footer.php"); ?>
 
         <!-- Scroll Top -->
         <a class="scroll-top">

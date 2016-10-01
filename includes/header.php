@@ -4,9 +4,9 @@
 
         <!-- Logo -->
         <div class="logo">
-            <a href="index.html">
-                <img class="logo-light" src="img/logo-white.png" alt="Mazel" />
-                <img class="logo-dark" src="img/logo-black.png" alt="Mazel" />
+            <a href="index.php" style="margin-top: 8px !important;">
+                <img class="logo-light" src="img/soulfuladventures_logo.png" alt="Soulfuladventures" style="height:50px; width:auto !important;" />
+                <img class="logo-dark" src="img/soulfuladventures_logo.png" alt="Soulfuladventures" style="height:50px; width:auto !important;" />
             </a>
         </div>
         <!-- End Logo -->
@@ -42,7 +42,19 @@
                     <a class="" href="index.php">Home </a>
                 </li>
                 <li>
-                    <a class="" href="destinations.php">Destinations </a>
+                    <!-- <a class="" href="destinations.php">Destinations </a> -->
+                    <a class="menu-has-sub">Destinations <i class="fa fa-angle-down"></i></a>
+                    <!-- Dropdown -->
+                    <ul class="sub-dropdown dropdown">
+                        <li><a href="destination-1.php">Desti-1</a></li>
+                        <li><a href="destination-2.php">Desti-2</a></li>
+                        <li><a href="destination-3.php">Desti-3</a></li>
+                        <li><a href="destination-4.php">Desti-4</a></li>
+                        <li><a href="destination-5.php">Desti-5</a></li>
+                        <li><a href="destination-6.php">Desti-6</a></li>
+                        <li><a href="destination-7.php">Desti-7</a></li>
+                    </ul>
+                    <!-- End Dropdown -->
                 </li>
                 <li>
                     <a class="" href="activities.php">Activities </a>
